@@ -2,9 +2,9 @@ const mineflayer = require('mineflayer')
 
 // Edit these values directly if you want (same style as before)
 const CONFIG = {
-  host: 'ip.aternos.host',
-  port: 25565,
-  username: 'AAGOP',
+  host: 'H1ckF1re-I8Xl.aternos.me',
+  port: 61353,
+  username: 'statusbot',
   version: '1.16.5',
   registerCommand: '/register aagop04'
 }
