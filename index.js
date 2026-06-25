@@ -1,5 +1,12 @@
 const mineflayer = require('mineflayer')
+const http = require('http');
 
+http.createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Minecraft bot is running');
+}).listen(process.env.PORT || 3000, () => {
+  console.log('Web server started');
+});
 // Edit these values directly if you want (same style as before)
 const CONFIG = {
   host: 'H1ckF1re-I8Xl.aternos.me',
